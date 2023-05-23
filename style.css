@@ -22,7 +22,7 @@
 .bg_names {
   position: absolute;
   z-index: -10;
-  top: 40%;
+  top: 42%;
   font-size: 38px;
   left: 0;
   right: 0;
@@ -60,7 +60,7 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-  top: 24%;
+  top: 22%;
   text-align: center;
   /* color: #003153; */
   color: black;
@@ -73,6 +73,8 @@ img {
 
 .text_block h6 {
   font-weight: 100;
+  margin-top: 57%;
+  margin-bottom: 7px;
 }
 
 .text_block p {
@@ -81,9 +83,20 @@ img {
   color: black;
 }
 
+.text_block button {
+  width: 75%;
+  margin-top: 5px;
+  background: #003153;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Main", sans-serif;
+  padding: 5px 10px;
+}
+
 .list-choice {
   width: 75%;
-  margin: 1em auto;
+  margin: 0 auto;
   position: relative;
   cursor: pointer;
 }
