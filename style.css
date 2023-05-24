@@ -18,6 +18,12 @@
   position: relative;
   width: 100%;
 }
+
+.base {
+  margin-top: 23%;
+  position: relative;
+  width: 100%;
+}
 .base .bg_names {
   top: 50%;
   left: 6%;
