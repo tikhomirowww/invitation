@@ -37,6 +37,7 @@
 
 img {
   width: 100%;
+  height: 530px;
 }
 
 .ilya {
@@ -84,6 +85,7 @@ img {
 }
 
 .text_block button {
+  /* position: absolute; */
   width: 75%;
   margin-top: 5px;
   background: #003153;
@@ -96,7 +98,7 @@ img {
 
 .select {
   position: relative;
-  height: 25px;
+  height: fit-content;
 }
 
 .options {
@@ -132,7 +134,7 @@ img {
 }
 
 .select_title {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   width: 75%;
   margin: 0 auto;
@@ -144,7 +146,7 @@ img {
   border-radius: 5px;
 }
 
-.list-choice {
+/* .list-choice {
   width: 75%;
   margin: 0 auto;
   position: relative;
@@ -164,15 +166,15 @@ img {
   box-sizing: border-box;
   color: #fff;
   /* text-shadow: 0 1px 0 #cacaca; */
-  border-radius: 0.2em;
-}
-.list-choice:hover .list-choice-title {
+/* border-radius: 0.2em;
+} */
+/* .list-choice:hover .list-choice-title {
   border-radius: 0.2em 0.2em 0 0;
 }
 .list-choice-objects label:nth-last-of-type(1) span {
   border-radius: 0 0 0.2em 0.2em;
-}
-.list-choice input[type="radio"] + span {
+} */
+/* .list-choice input[type="radio"] + span {
   color: #fff;
   background: #d8d8d8;
   padding: 0.55em 1em;
@@ -222,4 +224,4 @@ img {
 
 .list-choice:hover .list-choice-objects {
   max-height: 540px;
-}
+}  */
