@@ -88,3 +88,33 @@ title.addEventListener("click", () => {
 });
 
 // console.log(option);
+
+//? timer
+// function countdown() {
+//   const today = new Date();
+//   const targetDate = new Date(2023, 7, 1); // Используем индекс 7 для месяца август (8 - 1)
+
+//   const remainingTime = targetDate - today;
+
+//   if (remainingTime <= 0) {
+//     // Если время истекло, останавливаем таймер и выводим сообщение
+//     clearInterval(timerId);
+//     console.log("Свадьба!");
+//     return;
+//   }
+
+//   const seconds = Math.floor((remainingTime / 1000) % 60);
+//   const minutes = Math.floor((remainingTime / 1000 / 60) % 60);
+//   const hours = Math.floor((remainingTime / (1000 * 60 * 60)) % 24);
+//   const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+//   const weeks = Math.floor(days / 7);
+
+//   console.log(
+//     `Оставшееся время: ${weeks} недель, ${days} дней, ${hours} часов, ${minutes} минут, ${seconds} секунд`
+//   );
+// }
+
+// // Запускаем таймер с интервалом 1 секунда
+// const timerId = setInterval(countdown, 1000);
+
+// time();
