@@ -260,6 +260,7 @@ h2 {
   text-align: center;
   padding: 2px;
   border-radius: 8px;
+  padding: 15px;
   /* position: relative; */
 }
 
@@ -352,7 +353,11 @@ h2 {
   margin-top: 5px;
 }
 
-.questions {
+.questions h2 {
   text-align: center;
   font-family: "Main", sans-serif;
+}
+
+.questions img {
+  object-fit: cover;
 }
