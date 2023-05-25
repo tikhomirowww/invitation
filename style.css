@@ -95,7 +95,7 @@ img {
 }
 
 .base .text_block {
-  top: 19%;
+  top: 18%;
 }
 
 .text_block {
@@ -201,10 +201,16 @@ img {
   font-family: "Ilya", sans-serif;
 }
 
+h2 {
+  color: #003153;
+  font-family: "Ilya", sans-serif;
+}
+
 .timer {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
   color: #003153;
   font-family: "Main", sans-serif;
 }
