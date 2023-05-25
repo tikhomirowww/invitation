@@ -27,3 +27,10 @@ function countdown() {
 
 // Запускаем таймер с интервалом 1 секунда
 const timerId = setInterval(countdown, 1000);
+
+let title = document.querySelector(".guest_name");
+
+let guest = localStorage.getItem("guest");
+
+title.innerText = guest;
+console.log(guest);
