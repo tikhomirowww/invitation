@@ -32,5 +32,7 @@ let title = document.querySelector(".guest_name");
 
 let guest = localStorage.getItem("guest");
 
-title.innerText = guest;
-console.log(guest);
+if (guest) {
+  title.innerText = guest;
+  console.log(guest);
+}
