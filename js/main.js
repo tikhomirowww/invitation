@@ -87,3 +87,13 @@ title.addEventListener("click", () => {
   select.style.transition = "0.8s";
   select.style.border = "1px solid black";
 });
+console.log(title.innerText);
+
+let sendBtn = document.querySelector("#send");
+sendBtn.addEventListener("click", () => {
+  if (title.innerText === "Гости") {
+    alert("Пожалуйста выберите ваше имя!");
+    return;
+  }
+  window.location.href = "./main.html";
+});
