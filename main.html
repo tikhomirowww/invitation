@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
@@ -60,7 +61,7 @@
     <div style="position: relative">
       <img class="gartenzii" src="./images/gartenzii.png" alt="" />
     </div>
-    <div class="inv_text">
+    <div data-aos="fade-left" class="inv_text">
       <h2 class="guest_name"></h2>
       <p>
         Мы рады сообщить Вам, что 01.08.2023 состоится самое главное торжество в
@@ -69,7 +70,7 @@
       </p>
     </div>
 
-    <div class="schedule">
+    <div data-aos="fade-right" class="schedule">
       <h3>Свадебное расписание</h3>
       <!-- <div class="schedule_block"> -->
       <div class="schedule_item">
@@ -97,7 +98,7 @@
           Будем благодарны, если при выборе нарядов на наше торжество вы
           придержитесь следующей палитры
         </p>
-        <div class="colors_block">
+        <div data-aos="fade-left" class="colors_block">
           <div class="circle"></div>
           <div class="circle"></div>
           <div class="circle"></div>
@@ -111,5 +112,9 @@
     </div>
 
     <script src="./js/main2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
