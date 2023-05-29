@@ -329,6 +329,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 18px;
+  margin-top: 13px;
 }
 
 .circle {
@@ -365,4 +366,12 @@ h2 {
 
 .questions img {
   object-fit: cover;
+}
+
+.warning .inv_text {
+  background: #6596bbb8;
+}
+
+.warning h2 {
+  color: white;
 }
