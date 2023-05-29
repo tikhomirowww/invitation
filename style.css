@@ -376,6 +376,8 @@ h2 {
   height: 200px;
   width: 200px;
 }
+.warning {
+}
 
 .warning ol {
   margin-top: 20px;
@@ -386,9 +388,11 @@ h2 {
 }
 
 .warning .inv_text {
+  margin-top: 15px;
   background: #6596bbb8;
   color: white;
   padding: 15px 30px;
+  font-family: "Main", sans-serif;
 }
 
 .warning h2 {
@@ -399,13 +403,4 @@ h2 {
   position: absolute;
   bottom: 0;
   z-index: -20;
-}
-
-.last {
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-  object-fit: fill;
-  height: 315px;
-  width: 100%;
 }
