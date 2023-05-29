@@ -389,14 +389,15 @@ h2 {
 
 .warning .inv_text {
   margin-top: 15px;
-  background: #6596bbb8;
+  background: #e7f3fa;
   color: white;
   padding: 15px 30px;
   font-family: "Main", sans-serif;
+  color: #003153;
 }
 
 .warning h2 {
-  color: white;
+  /* color: white; */
 }
 
 .warning img {
