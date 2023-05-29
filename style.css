@@ -359,17 +359,34 @@ h2 {
   margin-top: 5px;
 }
 
+.questions {
+  display: flex;
+  justify-content: center;
+}
+
 .questions h2 {
   text-align: center;
   font-family: "Main", sans-serif;
 }
 
 .questions img {
-  object-fit: cover;
+  /* object-fit: cover; */
+  height: 200px;
+  width: 200px;
+}
+
+.warning ol {
+  margin-top: 20px;
+}
+
+.warning li {
+  margin-bottom: 5px;
 }
 
 .warning .inv_text {
   background: #6596bbb8;
+  color: white;
+  padding: 15px 30px;
 }
 
 .warning h2 {
