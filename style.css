@@ -249,10 +249,10 @@ h2 {
 
 .gartenzii {
   position: absolute;
-  /* object-fit: cover; */
+  object-fit: cover;
   z-index: -2;
   left: 0;
-  height: 673px;
+  /* height: 673px; */
 }
 
 /* .bg2 .gartenzii {
