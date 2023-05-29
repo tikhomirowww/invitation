@@ -22,6 +22,7 @@
 body {
   max-width: 500px;
   margin: auto;
+  position: relative;
 }
 
 .main {
@@ -248,9 +249,10 @@ h2 {
 
 .gartenzii {
   position: absolute;
-  object-fit: cover;
+  /* object-fit: cover; */
   z-index: -2;
   left: 0;
+  height: 673px;
 }
 
 /* .bg2 .gartenzii {
@@ -391,4 +393,19 @@ h2 {
 
 .warning h2 {
   color: white;
+}
+
+.warning img {
+  position: absolute;
+  bottom: 0;
+  z-index: -20;
+}
+
+.last {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  object-fit: fill;
+  height: 315px;
+  width: 100%;
 }
