@@ -204,6 +204,7 @@ img {
   background: #88a5c4;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .hero_date {

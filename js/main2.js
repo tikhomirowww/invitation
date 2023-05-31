@@ -72,10 +72,12 @@ function countdown() {
         }
       case "day":
         if (title === "1") {
+          console.log("1");
           return "день";
         } else if (title === "2") {
           return "дня";
         } else {
+          console.log(title);
           return "дней";
         }
       case "week":
